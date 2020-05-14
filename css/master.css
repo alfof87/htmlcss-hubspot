@@ -7,6 +7,8 @@
 width: 100%;
 padding: 0 10%;
 }
+
+
 .scritte-nere{
   display: inline-block;
   color: black;
@@ -98,18 +100,53 @@ h1, p{
 /*fine header*/
 
 /*inizio main*/
-
+/*quarto blocco*/
 #quarto{
   width: 100%;
-  height: 500px;
+  height: 1000px;
   background-color: #F0FFFF;
+  text-align: center;
+  padding-top: 20px;
+
+}
+#cube{
+  width: 10%;
+  height: 100px;
+}
+#CRM{
+  width: 10%;
+  height: 100px;
+}
+#rett1{
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  
+
+
 }
 
+
+
+
+
+
+/*quinto blocco*/
 #quinto{
   width: 100%;
   height: 500px;
   background-color: #20B2AA;
 }
+
+
+
+
+
+
+
+
+
+/*sesto blocco*/
 #sesto{
   width: 100%;
   height: 500px;
