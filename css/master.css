@@ -116,13 +116,18 @@ h1, p{
 #CRM{
   width: 10%;
   height: 100px;
+  float: left;
+  padding: 15px;
 }
 #rett1{
   background-color: white;
-  width: 100%;
-  height: 200px;
-  
-
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+}
+#Learn{
+  float: left;
+  width: 10%;
 
 }
 
