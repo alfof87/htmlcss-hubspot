@@ -1,0 +1,57 @@
+*{                /*regole generali*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.centratura{
+width: 100%;
+padding: 0 10%;
+}
+/*inizio header*/
+
+/*primo blocco*/
+#primo{
+  width: 100%;
+  height: 100px;
+  background-color: #F0FFFF;
+}
+
+/*secondo blocco*/
+#secondo{
+  width: 100%;
+  height: 100px;
+
+}
+/*terzo blocco*/
+#terzo{
+  width: 100%;
+  height: 500px;
+  background-color: #FFEBCD;
+}
+/*fine header*/
+
+/*inizio main*/
+#quarto{
+  width: 100%;
+  height: 500px;
+  background-color: #F0FFFF;
+}
+
+#quinto{
+  width: 100%;
+  height: 500px;
+  background-color: #20B2AA;
+}
+#sesto{
+  width: 100%;
+  height: 500px;
+}
+/*fine main*/
+
+/*inizio footer*/
+footer{
+  width: 100%;
+  height: 500px;
+  background-color: #708090;
+
+}
