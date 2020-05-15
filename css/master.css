@@ -25,6 +25,11 @@ padding: 0 10%;
   padding: 15px;
   text-decoration: none;
 }
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /*inizio header*/
 
@@ -85,11 +90,12 @@ li{
 /*terzo blocco*/
 #terzo{
   width: 100%;
-  height: 500px;
+  height: 800px;
   background-color: #FFEBCD;
   background-image: url("../img/jumbotron.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
 }
 h1{
   color: black;
@@ -114,7 +120,7 @@ h1, p{
   height: 100px;
 }
 #CRM{
-  width: 10%;
+  width: 100%;
   height: 100px;
   float: left;
   padding: 15px;
@@ -125,11 +131,7 @@ h1, p{
   height: 300px;
   margin: 0 auto;
 }
-#Learn{
-  float: left;
-  width: 10%;
 
-}
 
 
 
