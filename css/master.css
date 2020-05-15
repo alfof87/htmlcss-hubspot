@@ -30,6 +30,9 @@ padding: 0 10%;
   display: table;
   clear: both;
 }
+.fa-check-circle{
+  color: #FF6347;
+}
 
 /*inizio header*/
 
@@ -97,19 +100,18 @@ li{
   background-repeat: no-repeat;
   background-position: bottom;
 }
-h1{
+.par{
   color: black;
-}
-h1, p{
   padding-top: 50px;
 }
+
 /*fine header*/
 
 /*inizio main*/
 /*quarto blocco*/
 #quarto{
   width: 100%;
-  height: 1000px;
+  height: 2000px;
   background-color: #F0FFFF;
   text-align: center;
   padding-top: 20px;
@@ -119,18 +121,54 @@ h1, p{
   width: 10%;
   height: 100px;
 }
-#CRM{
-  width: 100%;
-  height: 100px;
-  float: left;
-  padding: 15px;
-}
+/*primo rettangolo quarto blocco*/
 #rett1{
   background-color: white;
   width: 80%;
   height: 300px;
   margin: 0 auto;
+  margin-top: 30px;
 }
+
+#CRM{
+  width: 100%;
+  height: 100px;
+  float: left;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+#colonna1{
+  width: 35%;
+  height: auto;
+  float: left;
+}
+#colonna2{
+  width: 65%;
+  height: auto;
+  float: left;
+  text-align: left;
+}
+
+hr{
+  width: 450px;
+  height: 2px;
+  display: inline-block;
+}
+.check{
+  display: inline-block;
+  margin-right: 15px;
+}
+.padcol2{
+  margin-top: 30px;
+}
+/*secondo rettangolo quarto blocco/3 colonne*/
+#rett2{
+
+
+
+}
+
+
 
 
 
@@ -143,6 +181,7 @@ h1, p{
   width: 100%;
   height: 500px;
   background-color: #20B2AA;
+  margin-top: 800px;
 }
 
 
