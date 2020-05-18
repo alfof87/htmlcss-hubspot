@@ -45,6 +45,9 @@ padding: 0 10%;
 .scritte-grandi{
   font-size: 50px;
 }
+body{
+  font-family: sans-serif;
+}
 
 
 /*inizio header*/
@@ -95,16 +98,15 @@ li{
 /*secondo blocco*/
 #secondo{
   width: 100%;
-  height: 100px;
+  height: 200px;
   background-color: white;
 }
 #logo{
-  padding-top: 10px;
+  padding-top: 120px;
 }
 #menu3{
   float: right;
-  padding-top: 10px;
-
+  padding-top: 120px;
 }
 
 /*terzo blocco*/
@@ -286,7 +288,7 @@ h3{
 /*sesto blocco*/
 #sesto{
   width: 100%;
-  height: 600px;
+  height: 650px;
 }
 #number{
   font-size: 80px;
@@ -298,10 +300,10 @@ h3{
 }
 .secondblock{
   float: right;
-  width: 20%;
+  width: 70%;
   height: auto;
-  padding-left: 80px;
-  padding-top: 35px;
+  padding-left: 200px;
+
 }
 .imgsize{
   width: 150px;
@@ -315,6 +317,7 @@ h3{
 #primo-sec-riga{
   float: left;
   width: 50%;
+  text-align: left;
 }
 #woman{
   float: right;
@@ -340,6 +343,7 @@ footer{
   float: left;
   width: 25%;
   height: 400px;
+  padding-top: 10px;
 }
 .foot-li{
   display: block;
